@@ -1,5 +1,5 @@
-# DesignPattern
-`**Java设计模式概念与案例学习**`
+# DesignPattern(设计模式)
+**Java设计模式概念与案例学习**
 
 **1)工厂模式**
 
