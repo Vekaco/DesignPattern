@@ -21,3 +21,10 @@
 这种模式涉及到一个单一的类，该类负责创建自己的对象，同时确保只有单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。
 
 概念详情参考：http://www.runoob.com/design-pattern/singleton-pattern.html
+
+**4)建造者模式**
+
+建造者模式（Builder Pattern）使用多个简单的对象一步一步构建成一个复杂的对象。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
+一个 Builder 类会一步一步构造最终的对象。该 Builder 类是独立于其他对象的。
+
+概念详情参考：http://www.runoob.com/design-pattern/builder-pattern.html
