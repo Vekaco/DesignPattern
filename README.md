@@ -14,3 +14,10 @@
 在抽象工厂模式中，接口是负责创建一个相关对象的工厂，不需要显式指定它们的类。每个生成的工厂都能按照工厂模式提供对象。
 
 概念详情参考：http://www.runoob.com/design-pattern/abstract-factory-pattern.html
+
+**3)单例模式**
+
+单例模式（Singleton Pattern）是 Java 中最简单的设计模式之一。这种类型的设计模式属于创建型模式，它提供了一种创建对象的最佳方式。
+这种模式涉及到一个单一的类，该类负责创建自己的对象，同时确保只有单个对象被创建。这个类提供了一种访问其唯一的对象的方式，可以直接访问，不需要实例化该类的对象。
+
+概念详情参考：http://www.runoob.com/design-pattern/singleton-pattern.html
