@@ -55,3 +55,10 @@
 过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。这种类型的设计模式属于结构型模式，它结合多个标准来获得单一标准。
 
 概念详情参考： http://www.runoob.com/design-pattern/filter-pattern.html
+
+**9)组合模式（部分整体模式）**
+
+组合模式（Composite Pattern），又叫部分整体模式，是用于把一组相似的对象当作一个单一的对象。组合模式依据树形结构来组合对象，用来表示部分以及整体层次。这种类型的设计模式属于结构型模式，它创建了对象组的树形结构。
+这种模式创建了一个包含自己对象组的类。该类提供了修改相同对象组的方式。
+
+概念详情参考：http://www.runoob.com/design-pattern/composite-pattern.html
