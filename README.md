@@ -103,3 +103,9 @@
 命令模式（Command Pattern）是一种数据驱动的设计模式，它属于行为型模式。请求以命令的形式包裹在对象中，并传给调用对象。调用对象寻找可以处理该命令的合适的对象，并把该命令传给相应的对象，该对象执行命令。
 
 概念详情参考：http://www.runoob.com/design-pattern/command-pattern.html
+
+**16)解释器模式**
+
+解释器模式（Interpreter Pattern）提供了评估语言的语法或表达式的方式，它属于行为型模式。这种模式实现了一个表达式接口，该接口解释一个特定的上下文。这种模式被用在 SQL 解析、符号处理引擎等。
+
+概念详情参考:http://www.runoob.com/design-pattern/interpreter-pattern.html
