@@ -49,3 +49,9 @@
 这种模式涉及到一个作为桥接的接口，使得实体类的功能独立于接口实现类。这两种类型的类可被结构化改变而互不影响。
 
 概念详情参考：http://www.runoob.com/design-pattern/bridge-pattern.html
+
+**8）过滤模式**
+
+过滤器模式（Filter Pattern）或标准模式（Criteria Pattern）是一种设计模式，这种模式允许开发人员使用不同的标准来过滤一组对象，通过逻辑运算以解耦的方式把它们连接起来。这种类型的设计模式属于结构型模式，它结合多个标准来获得单一标准。
+
+概念详情参考： http://www.runoob.com/design-pattern/filter-pattern.html
