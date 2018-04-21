@@ -91,11 +91,15 @@
 
 概念详情参考：http://www.runoob.com/design-pattern/proxy-pattern.html
 
-14)责任链模式
+**14)责任链模式**
 
 顾名思义，责任链模式（Chain of Responsibility Pattern）为请求创建了一个接收者对象的链。这种模式给予请求的类型，对请求的发送者和接收者进行解耦。这种类型的设计模式属于行为型模式。
 在这种模式中，通常每个接收者都包含对另一个接收者的引用。如果一个对象不能处理该请求，那么它会把相同的请求传给下一个接收者，依此类推。
 
 概念详情参考：http://www.runoob.com/design-pattern/chain-of-responsibility-pattern.html
 
+**15)命令模式**
 
+命令模式（Command Pattern）是一种数据驱动的设计模式，它属于行为型模式。请求以命令的形式包裹在对象中，并传给调用对象。调用对象寻找可以处理该命令的合适的对象，并把该命令传给相应的对象，该对象执行命令。
+
+概念详情参考：http://www.runoob.com/design-pattern/command-pattern.html
