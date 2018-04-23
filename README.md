@@ -133,3 +133,10 @@
 当对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知它的依赖对象。
    
 概念详情参考：http://www.runoob.com/design-pattern/observer-pattern.html
+
+21)状态模式
+   
+在状态模式（State Pattern）中，类的行为是基于它的状态改变的。这种类型的设计模式属于行为型模式。
+在状态模式中，我们创建表示各种状态的对象和一个行为随着状态对象改变而改变的 context 对象。
+   
+概念详情参考：http://www.runoob.com/design-pattern/state-pattern.html
