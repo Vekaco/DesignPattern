@@ -167,11 +167,11 @@
    
 概念详情参考：http://www.runoob.com/design-pattern/visitor-pattern.html
 
-26）MVC 模式
+26）**MVC 模式**
    
 MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这种模式用于应用程序的分层开发。
-_Model（模型）_ - 模型代表一个存取数据的对象或 JAVA POJO。它也可以带有逻辑，在数据变化时更新控制器。
-_View（视图）_ - 视图代表模型包含的数据的可视化。
-_Controller（控制器）_ - 控制器作用于模型和视图上。它控制数据流向模型对象，并在数据变化时更新视图。它使视图与模型分离开。
+**_Model（模型）_** - 模型代表一个存取数据的对象或 JAVA POJO。它也可以带有逻辑，在数据变化时更新控制器。
+**_View（视图）_** - 视图代表模型包含的数据的可视化。
+**_Controller（控制器）_** - 控制器作用于模型和视图上。它控制数据流向模型对象，并在数据变化时更新视图。它使视图与模型分离开。
    
 概念详情参考：http://www.runoob.com/design-pattern/mvc-pattern.html   
