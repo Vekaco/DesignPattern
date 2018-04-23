@@ -115,3 +115,9 @@
 迭代器模式（Iterator Pattern）是 Java 和 .Net 编程环境中非常常用的设计模式。这种模式用于顺序访问集合对象的元素，不需要知道集合对象的底层表示。
 
 概念详情参考：http://www.runoob.com/design-pattern/iterator-pattern.html
+
+**18)中介者模型**
+
+中介者模式（Mediator Pattern）是用来降低多个对象和类之间的通信复杂性。这种模式提供了一个中介类，该类通常处理不同类之间的通信，并支持松耦合，使代码易于维护。
+
+概念详情参考：http://www.runoob.com/design-pattern/mediator-pattern.html
