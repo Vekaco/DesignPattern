@@ -127,3 +127,9 @@
 备忘录模式（Memento Pattern）保存一个对象的某个状态，以便在适当的时候恢复对象。
 
 概念详情参考：http://www.runoob.com/design-pattern/memento-pattern.html
+
+**20)观察者模式**
+   
+当对象间存在一对多关系时，则使用观察者模式（Observer Pattern）。比如，当一个对象被修改时，则会自动通知它的依赖对象。
+   
+概念详情参考：http://www.runoob.com/design-pattern/observer-pattern.html
