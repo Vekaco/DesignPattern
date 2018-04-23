@@ -147,3 +147,10 @@
 在空对象模式中，我们创建一个指定各种要执行的操作的抽象类和扩展该类的实体类，还创建一个未对该类做任何实现的空对象类，该空对象类将无缝地使用在需要检查空值的地方。
    
 概念详情参考：http://www.runoob.com/design-pattern/null-object-pattern.html
+
+**23)策略模式**
+   
+在策略模式（Strategy Pattern）中，一个类的行为或其算法可以在运行时更改。这种类型的设计模式属于行为型模式。
+在策略模式中，我们创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象。策略对象改变 context 对象的执行算法。
+   
+概念详情参考：http://www.runoob.com/design-pattern/strategy-pattern.html
