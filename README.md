@@ -121,3 +121,9 @@
 中介者模式（Mediator Pattern）是用来降低多个对象和类之间的通信复杂性。这种模式提供了一个中介类，该类通常处理不同类之间的通信，并支持松耦合，使代码易于维护。
 
 概念详情参考：http://www.runoob.com/design-pattern/mediator-pattern.html
+
+**19)备忘录模型**
+
+备忘录模式（Memento Pattern）保存一个对象的某个状态，以便在适当的时候恢复对象。
+
+概念详情参考：http://www.runoob.com/design-pattern/memento-pattern.html
