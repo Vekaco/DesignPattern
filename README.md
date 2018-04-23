@@ -154,3 +154,9 @@
 在策略模式中，我们创建表示各种策略的对象和一个行为随着策略对象改变而改变的 context 对象。策略对象改变 context 对象的执行算法。
    
 概念详情参考：http://www.runoob.com/design-pattern/strategy-pattern.html
+
+**24)模板模式**
+   
+在模板模式（Template Pattern）中，一个抽象类公开定义了执行它的方法的方式/模板。它的子类可以按需要重写方法实现，但调用将以抽象类中定义的方式进行。这种类型的设计模式属于行为型模式。
+   
+概念详情参考：http://www.runoob.com/design-pattern/template-pattern.html
