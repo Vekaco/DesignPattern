@@ -176,3 +176,13 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 **_Controller（控制器）_** - 控制器作用于模型和视图上。它控制数据流向模型对象，并在数据变化时更新视图。它使视图与模型分离开。
    
 概念详情参考：http://www.runoob.com/design-pattern/mvc-pattern.html   
+
+27)业务代表模式
+业务代表模式（Business Delegate Pattern）用于对表示层和业务层解耦。它基本上是用来减少通信或对表示层代码中的业务层代码的远程查询功能。在业务层中我们有以下实体。
+  
+**_客户端（Client）_** - 表示层代码可以是 JSP、servlet 或 UI java 代码。
+**_业务代表（Business Delegate）_** - 一个为客户端实体提供的入口类，它提供了对业务服务方法的访问。
+**_查询服务（LookUp Service）_** - 查找服务对象负责获取相关的业务实现，并提供业务对象对业务代表对象的访问。
+**_业务服务（Business Service）_** - 业务服务接口。实现了该业务服务的实体类，提供了实际的业务实现逻辑。
+
+概念详情参考：http://www.runoob.com/design-pattern/business-delegate-pattern.html  
