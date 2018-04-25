@@ -177,12 +177,24 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
    
 概念详情参考：http://www.runoob.com/design-pattern/mvc-pattern.html   
 
-27)业务代表模式
+**27)业务代表模式**
+
 业务代表模式（Business Delegate Pattern）用于对表示层和业务层解耦。它基本上是用来减少通信或对表示层代码中的业务层代码的远程查询功能。在业务层中我们有以下实体。
   
-**_客户端（Client）_** - 表示层代码可以是 JSP、servlet 或 UI java 代码。
-**_业务代表（Business Delegate）_** - 一个为客户端实体提供的入口类，它提供了对业务服务方法的访问。
-**_查询服务（LookUp Service）_** - 查找服务对象负责获取相关的业务实现，并提供业务对象对业务代表对象的访问。
+**_客户端（Client）_** - 表示层代码可以是 JSP、servlet 或 UI java 代码。<br>
+**_业务代表（Business Delegate）_** - 一个为客户端实体提供的入口类，它提供了对业务服务方法的访问。<br>
+**_查询服务（LookUp Service）_** - 查找服务对象负责获取相关的业务实现，并提供业务对象对业务代表对象的访问。<br>
 **_业务服务（Business Service）_** - 业务服务接口。实现了该业务服务的实体类，提供了实际的业务实现逻辑。
 
 概念详情参考：http://www.runoob.com/design-pattern/business-delegate-pattern.html  
+
+**28)组合实体模式**
+
+组合实体模式（Composite Entity Pattern）用在 EJB 持久化机制中。一个组合实体是一个 EJB 实体 bean，代表了对象的图解。当更新一个组合实体时，内部依赖对象 beans 会自动更新，因为它们是由 EJB 实体 bean 管理的。以下是组合实体 bean 的参与者。
+   
+**_组合实体（Composite Entity）_** - 它是主要的实体 bean。它可以是粗粒的，或者可以包含一个粗粒度对象，用于持续生命周期。
+**_粗粒度对象（Coarse-Grained Object）_** - 该对象包含依赖对象。它有自己的生命周期，也能管理依赖对象的生命周期。
+**_依赖对象（Dependent Object）_** - 依赖对象是一个持续生命周期依赖于粗粒度对象的对象。
+**_策略（Strategies）_** - 策略表示如何实现组合实体。
+
+概念详情参考：http://www.runoob.com/design-pattern/composite-entity-pattern.html
