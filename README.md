@@ -233,10 +233,20 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 **32)服务定位器模式**
 服务定位器模式（Service Locator Pattern）用在我们想使用 JNDI 查询定位各种服务的时候。考虑到为某个服务查找 JNDI 的代价很高，服务定位器模式充分利用了缓存技术。在首次请求某个服务时，服务定位器在 JNDI 中查找服务，并缓存该服务对象。当再次请求相同的服务时，服务定位器会在它的缓存中查找，这样可以在很大程度上提高应用程序的性能。以下是这种设计模式的实体。
    
-**_服务（Service）_** - 实际处理请求的服务。对这种服务的引用可以在 JNDI 服务器中查找到。
-_**Context / 初始的 Context_** - JNDI Context 带有对要查找的服务的引用。
-_**服务定位器（Service Locator）**_ - 服务定位器是通过 JNDI 查找和缓存服务来获取服务的单点接触。
-**_缓存（Cache）_** - 缓存存储服务的引用，以便复用它们。
+**_服务（Service）_** - 实际处理请求的服务。对这种服务的引用可以在 JNDI <br>
+**_Context_** / 初始的 Context - JNDI Context 带有对要查找的服务的引用。<br>
+**_服务定位器_**（Service Locator - 服务定位器是通过 JNDI 查找和缓存服务来获取服务的单点接触。<br>
+**_缓存（Cache）_** - 缓存存储服务的引用，以便复用它们。<br>
 **_客户端（Client）_** - Client 是通过 ServiceLocator 调用服务的对象。
 
-概念详情参考：http://www.runoob.com/design-pattern/service-locator-pattern.html
+概念详情参考：http://www.runoob.com/design-pattern/service-locator-pattern.
+
+
+**33)传输对象模式**
+传输对象模式（Transfer Object Pattern）用于从客户端向服务器一次性传递带有多个属性的数据。传输对象也被称为数值对象。传输对象是一个具有 getter/setter 方法的简单的 POJO 类，它是可序列化的，所以它可以通过网络传输。它没有任何的行为。服务器端的业务类通常从数据库读取数据，然后填充 POJO，并把它发送到客户端或按值传递它。对于客户端，传输对象是只读的。客户端可以创建自己的传输对象，并把它传递给服务器，以便一次性更新数据库中的数值。以下是这种设计模式的实体。
+   
+**_业务对象（Business Object）_** - 为传输对象填充数据的业务服务。<br>
+**_传输对象（Transfer Object）**_ - 简单的 POJO，只有设置/获取属性的方法。<br>
+**_客户端（Client）_** - 客户端可以发送请求或者发送传输对象到业务对象。
+
+概念详情参考：http://www.runoob.com/design-pattern/transfer-object-pattern.html
