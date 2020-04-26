@@ -239,7 +239,7 @@ MVC 模式代表 Model-View-Controller（模型-视图-控制器） 模式。这
 **_缓存（Cache）_** - 缓存存储服务的引用，以便复用它们。<br>
 **_客户端（Client）_** - Client 是通过 ServiceLocator 调用服务的对象。
 
-概念详情参考：http://www.runoob.com/design-pattern/service-locator-pattern.
+概念详情参考：http://www.runoob.com/design-pattern/service-locator-pattern.html
 
 
 **33)传输对象模式**
